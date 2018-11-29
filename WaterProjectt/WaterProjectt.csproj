@@ -201,6 +201,8 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Interface\ICategoryRepo.cs" />
+    <Compile Include="Models\Interface\IMachineRepo.cs" />
     <Compile Include="Models\MCategory.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\Machine.cs" />
