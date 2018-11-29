@@ -201,8 +201,13 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\MCategory.cs" />
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\Machine.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\MOrder.cs" />
+    <Compile Include="Models\MOrderDetail.cs" />
+    <Compile Include="Models\MShoppingCartItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
