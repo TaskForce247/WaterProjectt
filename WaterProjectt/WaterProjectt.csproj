@@ -203,6 +203,9 @@
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Interface\ICategoryRepo.cs" />
     <Compile Include="Models\Interface\IMachineRepo.cs" />
+    <Compile Include="Models\Interface\IOrderRepo.cs" />
+    <Compile Include="Models\Interface\IShoppingCartService.cs" />
+    <Compile Include="Models\Interface\UnitOfWork.cs" />
     <Compile Include="Models\MCategory.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\Machine.cs" />
@@ -210,6 +213,7 @@
     <Compile Include="Models\MOrder.cs" />
     <Compile Include="Models\MOrderDetail.cs" />
     <Compile Include="Models\MShoppingCartItem.cs" />
+    <Compile Include="Models\ViewModel\MyOrderViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
