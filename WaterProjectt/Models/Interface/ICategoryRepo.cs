@@ -8,6 +8,6 @@ namespace WaterProjectt.Models.Interface
 {
     interface ICategoryRepo
     {
-        
+        Task<IEnumerable<MCategory>> GetMCategories();
     }
 }
